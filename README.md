@@ -7,7 +7,7 @@ Strategy to authenticate with Google via OAuth2 in OmniAuth.
 
 Get your API key at: https://code.google.com/apis/console/  Note the Client ID and the Client Secret.
 
-**Note**: You must enable the "Contacts API" and "Google+ API" via the Google API console. Otherwise, you will receive an `OAuth2::Error`(`Error: "Invalid credentials"`) stating that access is not configured when you attempt to authenticate.
+**Note**: You must enable the "Contacts API" and "Google+ API" via the Google API console. Otherwise, you will receive an `OAuth2::Error`(`Error: "Invalid credentials"`) stating that access is not configured when you attempt to authenticate. If you enable access to any other api scope, you will need to enable that as well.
 
 For more details, read the Google docs: https://developers.google.com/accounts/docs/OAuth2
 
